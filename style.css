@@ -38,6 +38,10 @@ h1 {
   border: green 1px solid;
 }
 
+.topNav ul a:hover {
+  opacity: 0.8;
+}
+
 article {
   width: 960px;
   margin: 50px auto;
