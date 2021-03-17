@@ -36,9 +36,13 @@ h1 {
   padding: 10px 15px;
   text-decoration: none;
   border: green 1px solid;
+  transition: all 0.8s ease-out;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
 }
 
 .topNav ul a:hover {
+  box-shadow: none;
   color: white;
   background-color: green;
 }
@@ -90,7 +94,9 @@ footer {
   }
 }
 
-
+.dog {
+  width: 100%;
+}
 
 
 
